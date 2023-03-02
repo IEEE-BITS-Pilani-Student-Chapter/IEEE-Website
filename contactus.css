@@ -1,0 +1,113 @@
+.Contact-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background: rgba(0, 118, 178, 1);
+    color: aliceblue;
+    
+    
+}
+.contactus{
+    font-size: 60px;
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+   margin-bottom: 0.75rem;
+   margin-top: 1rem;
+   font-weight: 900;
+
+}
+.slogan{
+    font-size: 25px;
+    padding-top: 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    
+
+}
+.container2{
+    background: rgba(0, 118, 178, 1);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5rem;
+}
+.line{
+    border: 3px solid white;
+    margin-left: 15rem;
+    margin-right: 5rem;
+    border-radius: 20px;
+    height: 312.77px;
+}
+.Address{
+  color: aliceblue;
+  
+}
+#Name{
+     
+     font-size: 25px;
+     width: 8rem;
+     font-family: 'Poppins', sans-serif;
+     width: 218.4px;
+     height: 47.97px;
+
+
+}
+#email{
+    
+    height: 47.97px;
+    width: 300px;
+    font-size: 25px;
+    
+    font-family: 'Poppins', sans-serif;
+}
+#comments{
+    
+    font-size: 25px;
+    width: 540.38px;
+    height: 129.66px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#images{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    font-size: 24px;
+    margin-left: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.EmailAddress{
+    margin-top: 2rem;
+}
+.img1{
+    margin-bottom: 8.7rem;
+}
+#send{
+    width: 202px;
+    height: 49px;
+    background: #00629B;
+    box-shadow: 5.52381px 4.41905px 9.94286px -1.10476px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: aliceblue;
+    border-color: #00629B;
+    line-height: 124.02%;
+    margin-top: 20px;
+    
+
+}
+#button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 34rem;
+}
+
+

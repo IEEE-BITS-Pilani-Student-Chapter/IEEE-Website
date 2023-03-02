@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    
+}
+.bar{
+    display: inline;
+    background-color: #FFFFFF;
+    border: 1px #FFF solid;
+}
+
+.top-link{
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 500;
+    line-height: 27px;
+    text-decoration: underline;
+    color: #FFF;
+    padding: 8px 10px;
+}
+
+.top-1{
+    padding: 8px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00629B;
+    
+}
+.top-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    align-items: center;
+}
+.below-link{
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 0 30.92px ;
+    text-decoration: none;
+   
+}
+.logo-1{
+    width: 138px;
+    height: 45px;
+
+}
+.textbox{
+    margin: 200.56px 262px 331.56px 92px;
+    position: absolute;
+    width: 1112px;
+    height: 266.88px;
+    left: 64px;
+    top: 249.56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 76.0842px;
+    line-height: 54px;
+    letter-spacing: 0.015em;
+  
+    color: #FFFFFF;
+    
+    text-shadow: 3.51158px 4.68211px 4.68211px rgba(0, 0, 0, 0.25);
+}
+
+.top-3{
+    display: flex;
+    align-items: flex-start;
+    background-image: url("images/clockTower.png");
+    background-color: rgb(25, 25, 170);
+    height: 719px;
+    width: auto;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    opacity: 0.8;
+}
+.top-blue{
+    background-color: #00629B;
+}
+
+.btn{
+    background-color: #00629B;
+    position: absolute;
+    width: 202px;
+    height: 49px;
+    left: 85px;
+    top: 550px;
+    font-family: 'Poppins';
+   font-style: normal;
+    font-weight: 600;
+   font-size: 24px;
+   line-height: 29.77px;
+    letter-spacing: 0.115em;
+    text-transform: capitalize;
+    color: #FFF;
+    border: none;
+    border-radius:5px ;
+    box-shadow: 5.52px 4.42px 15.94px black;
+}
+
+.icons{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 631px;
+    left: 85px;
+}
+.icon{
+    margin: 0 13.1px;
+}
