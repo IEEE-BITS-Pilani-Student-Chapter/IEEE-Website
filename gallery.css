@@ -1,0 +1,91 @@
+.carousel-container{
+    
+    margin-left: 71px;
+    display: flex;
+    margin-bottom:30px ;
+    
+    
+
+}
+.gallery-container{
+    width: 420px;
+    height: 420px;
+    background: #D3C200;
+    font-family: 'poppins';
+    font-weight: 1000;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.gallery{
+    margin-right: 35px;
+    color: aliceblue;
+}
+.line-gallery-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.line-gallery{
+    border: 3px solid white;
+    width: 182px;
+    margin-right: 35px;
+    
+    
+}
+.see-all{
+    width: 240px;
+    height: 48px;
+    background: rgba(0, 0, 0, 1);
+    box-shadow: 5.52381px 4.41905px 9.94286px -1.10476px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: aliceblue;
+    border-color: #00629B;
+    line-height: 124.02%;
+    margin-top: 16rem;
+    margin-right: 35px;
+}
+.carousel{
+    position: relative;
+    height: 420px;
+    overflow: hidden;
+    width: 860px;
+
+}
+.slider{
+    height: 100%;
+    display: flex;
+    width: auto;
+    transition: all 0.3s;
+
+}
+.slider section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.controls .Arrow-left{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    
+}
+.controls .Arrow-right{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    
+    
+}
