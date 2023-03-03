@@ -66,10 +66,12 @@ body{
 	max-width: 100%;
 	width: 200px;
 	height: 300px;
-	left: 65%;
-	border: 25px solid #00629B;
+	margin-left: 45%;
+	border: 20px solid #00629B;
 	filter: blur(50px);
-	transform: rotate(-31.35deg);
+	transform: rotate(+31.35deg);
+	z-index: -1;
+	
 }
 
 .middle {
