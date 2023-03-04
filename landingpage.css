@@ -14,9 +14,9 @@ body{
     color: black;
     font-weight: 500;
     line-height: 27px;
-    text-decoration: underline;
+    text-decoration: none;
     color: #FFF;
-    padding: 8px 10px;
+    padding: 8px 11px;
 }
 
 .top-1{
@@ -26,18 +26,20 @@ body{
     justify-content: space-between;
     background-color: #00629B;
     
+    
 }
 .top-2{
     display: flex;
     justify-content: space-between;
     padding: 25px 0px;
     align-items: center;
+    height: 1.6rem;
 }
 .below-link{
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Poppins';
     color: black;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 27px;
     margin: 0 30.92px ;
     text-decoration: none;
@@ -70,7 +72,7 @@ body{
 .top-3{
     display: flex;
     align-items: flex-start;
-    height: 719px;
+    height: 44rem;
     width: auto;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -88,8 +90,8 @@ body{
     position: absolute;
     width: 202px;
     height: 49px;
-    left: 85px;
-    top: 550px;
+    left: 90px;
+    top: 470px;
     font-family: 'Poppins';
    font-style: normal;
     font-weight: 600;
@@ -100,7 +102,7 @@ body{
     color: #FFF;
     border: none;
     border-radius:5px ;
-    box-shadow: 5.52px 4.42px 15.94px black;
+    box-shadow: 3.52px 3.42px 12.94px black;
 }
 
 .icons{
@@ -108,9 +110,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 631px;
+    top: 550px;
     left: 85px;
 }
 .icon{
     margin: 0 13.1px;
+}
+.text-2{
+    margin-top: -2rem;
+    font-size: 55px;
 }
