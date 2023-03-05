@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+   }
 body{
     margin: 0;
  }
@@ -11,7 +14,7 @@ body{
 	margin-left: 2.5%;
 }
 
-.heading .auinfo h1 {
+.heading #auinfo h1 {
 	position: relative;
 	font-family: 'Poppins';
 	font-style: normal;
@@ -36,7 +39,7 @@ body{
 	bottom: -15%;
 }
 
-.heading .auinfo p {
+.heading #auinfo p {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 400;
@@ -78,7 +81,7 @@ body{
 	display: inline-flex;
 }
 
-.ig {
+#ig {
 	box-sizing: border-box;
 	position: relative;
 	width: 460px;
@@ -90,7 +93,7 @@ body{
 	margin-left: 8.75%;
 }
 
-.ig h1 {
+#ig h1 {
 	position: relative;
 	top: 1.07%;
 	bottom: 80.47%;
@@ -273,9 +276,15 @@ body{
 	padding-top: 20px;
 	font-family: 'Poppins';
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 1000;
 	font-size: 30px;
 	line-height: 33px;
 	letter-spacing: 0.1px;
 	color: #000000;
+}
+
+::placeholder { 
+	padding-top:2%;
+	color: rgba(85, 84, 85, 1);
+	;
 }
