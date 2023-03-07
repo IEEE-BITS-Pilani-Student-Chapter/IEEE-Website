@@ -5,6 +5,8 @@
     justify-content: center;
     justify-items: center;
     background: rgba(0, 118, 178, 1);
+    height: 100%;
+    width: 100%;
     color: aliceblue;
     
     
@@ -109,5 +111,12 @@
     justify-content: flex-end;
     width: 34rem;
 }
+@media (max-width:1400px){
+    .Contact-container{ 
+        height: 100%;
+        width: 100%;
+        margin-right: 0px; 
+    }
+  }
 
 
