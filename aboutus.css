@@ -373,6 +373,9 @@ body{
 	.heading .auimg img {
 		height: 75vh;
 	}
+	.prjimg img {
+		margin-left: 0%;
+	}
 	
 	.middle {
 		position: relative;
