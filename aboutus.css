@@ -243,7 +243,9 @@ body{
 }
 
 .prjimg img {
-	margin-left: 7.5%;
+	position: relative;
+	display: flex;
+	left: 7.5%;
 }
 
 .tag4 {
@@ -305,13 +307,11 @@ body{
 	.container1 {
 		margin-top: 2%;
 		width: 100%;
-		justify-content: center;
-		align-items: center;
 	}
 	
 	.heading {
 		position: relative;
-		display: grid;
+		display: inline-grid;
 		width: 100%;
 	}
 	
@@ -319,17 +319,6 @@ body{
 	.heading #auinfo h1 {
 		position: relative;
 		display: inline-grid;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 500;
-		font-size: 60px;
-		line-height: 66px;
-		display: flex;
-		align-items: center;
-		letter-spacing: 0.2px;
-		color: #000000;
-		float: left;
-		left: 10%;
 	}
 	
 	.ul2::after {
@@ -353,7 +342,7 @@ body{
 		align-items: center;
 		letter-spacing: 0.2px;
 		color: #000000;
-		padding-left: 10%;
+		padding-left: 10%;		
 		padding-right: 10%;
 		top: 10%;
 		float: left;
@@ -361,20 +350,13 @@ body{
 	
 	.heading .auimg {
 		position: relative;
-		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-		border-radius: 35px;
 		display: inline-grid;
-		padding-left: 10%;
-		justify-content: center;
-		align-items: center;
+		left: 25%;
 		top: 10%;
 	}
 	
 	.heading .auimg img {
-		height: 75vh;
-	}
-	.prjimg img {
-		margin-left: 0%;
+		height: 55vh;
 	}
 	
 	.middle {
@@ -382,7 +364,7 @@ body{
 		display: inline-grid;
 		width: 100%;
 		left: 4.5%;
-		gap: 1.5%;
+		gap: 2.5%;
 	}
 	
 	#ig {
@@ -391,6 +373,7 @@ body{
 		background: #71C143;
 		display: inline-grid;
 		width: 95.5%;
+		height: 100%;
 	}
 	
 	#ig h1 {
@@ -398,19 +381,9 @@ body{
 		top: 1.07%;
 		bottom: 80.47%;
 		right: 10%;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 500;
-		text-align: right;
-		font-size: 60px;
-		line-height: 66px;
-		letter-spacing: 0.2px;
-		color: #FFFFFF
 	}
 	
 	.ul::after {
-		content: '';
-		height: 5px;
 		width: 42.5%;
 		background: white;
 		position: absolute;
@@ -430,17 +403,6 @@ body{
 		top: 80.75%;
 		width: 45%;
 		right: 55%;
-		background: white;
-		border-radius: 0px 20px 0px 0px;
-		text-align: left;
-		padding-top: 20px;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 700;
-		font-size: 30px;
-		line-height: 33px;
-		letter-spacing: 0.1px;
-		color: #000000;
 	}
 	
 	.end {
@@ -456,46 +418,28 @@ body{
 		width: 95.5%;
 		height: 75vh;
 	}
+
+	.ig_dev img {
+		top: 2.5%;
+	}
 	
 	.ig_elec img {
-		bottom: 7.5%;
+		bottom: 6.5%;
 	}
 	
 	.tag2 {
 		position: relative;
 		height: 15%;
-		bottom: 20%;
+		bottom: 17%;
 		width: 30%;
-		background: white;
-		border-radius: 0px 20px 0px 0px;
-		text-align: left;
-		padding-top: 20px;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 700;
-		font-size: 30px;
-		line-height: 33px;
-		letter-spacing: 0.1px;
-		color: #000000;
 	}
 	
 	.tag3 {
 		position: relative;
 		height: 15%;
-		bottom: 20%;
+		bottom: 26%;
 		left: 0%;
 		width: 40%;
-		background: white;
-		border-radius: 0px 20px 0px 0px;
-		text-align: left;
-		padding-top: 20px;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 700;
-		font-size: 30px;
-		line-height: 33px;
-		letter-spacing: 0.1px;
-		color: #000000;
 	}
 	
 	.p1 {
@@ -512,8 +456,9 @@ body{
 		background: #00629B;
 		bottom: 400%;
 		width: 95.5%;
+		height: 100%;
 		right: 0;
-		left: 0%;
+		left: 0.5%;
 	}
 	
 	.prj h1 {
@@ -521,14 +466,6 @@ body{
 		right: 10%;
 		top: 4.06%;
 		bottom: 80.53%;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 500;
-		font-size: 60px;
-		line-height: 66px;
-		text-align: right;
-		letter-spacing: 0.2px;
-		color: #FFFFFF;
 	}
 	
 	.ul1::after {
@@ -541,8 +478,10 @@ body{
 		bottom: -30%;
 	}
 	
-	.p1 img {
+	.prjimg img {
 		position: relative;
+		display: grid;
+		left: 0.5%;
 		width: 95.5%;
 		top: 22.5%;
 		height: 75vh;
@@ -551,20 +490,9 @@ body{
 	.tag4 {
 		position: relative;
 		height: 15%;
-		bottom: 20%;
-		left: 7.5%;
+		top: 4%;
+		left: 0.5%;
 		width: 40%;
-		background: white;
-		border-radius: 0px 20px 0px 0px;
-		text-align: left;
-		padding-top: 20px;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 700;
-		font-size: 30px;
-		line-height: 33px;
-		letter-spacing: 0.1px;
-		color: #000000;
 	}
 	
 	.p2 {
@@ -577,42 +505,51 @@ body{
 	.p2 .p_aiml img {
 		position: relative;
 		width: 95.5%;
-		align-self: center;
+		left: 0.5%;
 		height: 75vh;
-		bottom: 12.5%;
+		bottom: 5%;
 	}
 	
 	.p2 .p_ar img {
 		position: relative;
 		width: 95.5%;
 		height: 75vh;
-		bottom: 20%;
+		bottom: 15.5%;
+		left: 0.5%;
 	}
 	
 	.p2 .p_design img {
 		position: relative;
 		width: 95.5%;
 		height: 75vh;
-		bottom: 27.5%;
+		bottom: 26%;
+		left: 0.5%;
 	}
-	
-	.p2 .tag {
+
+	.p_aiml .tag {
 		position: relative;
 		height: 15%;
-		bottom: 31.75%;
+		bottom: 24.5%;
 		width: 60%;
-		background: white;
-		border-radius: 0px 20px 0px 0px;
-		text-align: left;
-		padding-top: 20px;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 1000;
-		font-size: 30px;
-		line-height: 33px;
-		letter-spacing: 0.1px;
-		color: #000000;
+		left: 0.5%;
 	}
+
+	.p_ar .tag {
+		position: relative;
+		height: 15%;
+		bottom: 34.75%;
+		width: 60%;
+		left: 0.5%;
+	}
+
+	.p_design .tag {
+		position: relative;
+		height: 15%;
+		bottom: 45.25%;
+		width: 60%;
+		left: 0.5%;
+	}
+
 	}
 	
 	@media only screen and (max-width:1100px) {
@@ -628,7 +565,7 @@ body{
 	
 	@media only screen and (max-width:1000px) {
 	#ig {width: 111.5%;}
-	.middle img {width: 111.5%;}
+	.middle .ig_aiml {width: 111.5%;}
 	.end img {width: 111.5%;}
 	.prj {width: 111.5%;}
 	.p1 img {width: 111.5%;}
@@ -639,7 +576,7 @@ body{
 	
 	@media only screen and (max-width:900px) {
 	#ig {width: 125%;}
-	.middle img {width: 125%;}
+	.middle .ig_aiml {width: 125%;}
 	.end img {width: 125%;}
 	.prj {width: 125%;}
 	.p1 img {width: 125%;}
