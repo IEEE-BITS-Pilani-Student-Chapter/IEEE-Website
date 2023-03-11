@@ -584,3 +584,14 @@ body{
 	.p2 .p_ar img {width: 112.5%;}
 	.p2 .p_design img {width: 112.5%;}
 	}
+
+	@media only screen and (max-width:768px) {
+	#ig {width: 125%;}
+	.middle .ig_aiml {width: 125%;}
+	.end img {width: 125%;}
+	.prj {width: 125%;}
+	.p1 img {width: 125%;}
+	.p2 .p_aiml img {width: 125%;}
+	.p2 .p_ar img {width: 125%;}
+	.p2 .p_design img {width: 125%;}
+	}
