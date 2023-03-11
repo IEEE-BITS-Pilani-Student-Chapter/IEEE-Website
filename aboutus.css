@@ -362,7 +362,7 @@ body{
 	.middle {
 		position: relative;
 		display: inline-grid;
-		width: 100%;
+		width: 118%;
 		left: 4.5%;
 		gap: 2.5%;
 	}
@@ -408,7 +408,7 @@ body{
 	.end {
 		position: relative;
 		display: inline-grid;
-		width: 100%;
+		width: 118%;
 		left: 4.5%;
 		margin-top: 1.5%;
 	}
@@ -445,7 +445,7 @@ body{
 	.p1 {
 		position: relative;
 		display: inline-grid;
-		width: 100%;
+		width: 118%;
 		left: 4.5%;
 	}
 	
@@ -498,7 +498,7 @@ body{
 	.p2 {
 		position: relative;
 		display: inline-grid;
-		width: 100%;
+		width: 118%;
 		left: 4.5%;
 	}
 	
@@ -564,23 +564,23 @@ body{
 	}
 	
 	@media only screen and (max-width:1000px) {
-	#ig {width: 111.5%;}
-	.middle .ig_aiml {width: 111.5%;}
-	.end img {width: 111.5%;}
-	.prj {width: 111.5%;}
-	.p1 img {width: 111.5%;}
-	.p2 .p_aiml img {width: 111.5%;}
-	.p2 .p_ar img {width: 111.5%;}
-	.p2 .p_design img {width: 111.5%;}
+	#ig {width: 102.5%;}
+	.middle .ig_aiml {width: 102.5%;}
+	.end img {width: 102.5%;}
+	.prj {width: 102.5%;}
+	.p1 img {width: 102.5%;}
+	.p2 .p_aiml img {width: 102.5%;}
+	.p2 .p_ar img {width: 102.5%;}
+	.p2 .p_design img {width: 102.5%;}
 	}
 	
 	@media only screen and (max-width:900px) {
-	#ig {width: 125%;}
-	.middle .ig_aiml {width: 125%;}
-	.end img {width: 125%;}
-	.prj {width: 125%;}
-	.p1 img {width: 125%;}
-	.p2 .p_aiml img {width: 125%;}
-	.p2 .p_ar img {width: 125%;}
-	.p2 .p_design img {width: 125%;}
+	#ig {width: 112.5%;}
+	.middle .ig_aiml {width: 112.5%;}
+	.end img {width: 112.5%;}
+	.prj {width: 112.5%;}
+	.p1 img {width: 112.5%;}
+	.p2 .p_aiml img {width: 112.5%;}
+	.p2 .p_ar img {width: 112.5%;}
+	.p2 .p_design img {width: 112.5%;}
 	}
