@@ -36,6 +36,9 @@ body{
     align-items: center;
     height: 1.6rem;
 }
+.top-3{
+    width: 200%;
+}
 .below-link{
     font-size: 17px;
     font-family: 'Poppins';
@@ -222,3 +225,11 @@ body{
                     
                             
                     }    
+              @media only screen and (max-width:350px) {
+                
+                .top-2{
+                    width: 390%;
+                }
+                .top-blue{
+                    width: 390%;
+                }}
