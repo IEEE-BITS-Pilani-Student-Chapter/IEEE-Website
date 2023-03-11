@@ -595,3 +595,139 @@ body{
 	.p2 .p_ar img {width: 125%;}
 	.p2 .p_design img {width: 125%;}
 	}
+
+	@media only screen and (max-width:650px) {
+	#ig {width: 150%;}
+	.middle .ig_aiml {width: 150%;}
+	.end img {width: 150%;}
+	.prj {width: 150%;}
+	.p1 img {width: 150%;}
+	.p2 .p_aiml img {width: 150%;}
+	.p2 .p_ar img {width: 150%;}
+	.p2 .p_design img {width: 150%;}
+	}
+
+	@media only screen and (max-width:600px) {
+	#ig {width: 162.5%;}
+	.middle .ig_aiml {width: 162.5%;}
+	.end img {width: 162.5%;}
+	.prj {width: 162.5%;}
+	.p1 img {width:162.5%;}
+	.p2 .p_aiml img {width: 162.5%;}
+	.p2 .p_ar img {width: 162.5%;}
+	.p2 .p_design img {width: 162.5%;}
+	}
+
+	@media only screen and (max-width:550px) {
+	#ig {width: 177.5%;}
+	.middle .ig_aiml {width: 177.5%;}
+	.end img {width: 177.5%;}
+	.prj {width: 177.5%;}
+	.p1 img {width:177.5%;}
+	.p2 .p_aiml img {width: 177.5%;}
+	.p2 .p_ar img {width: 177.5%;}
+	.p2 .p_design img {width: 177.5%;}
+	}	
+
+	@media only screen and (max-width:500px) {
+	#ig {width: 195%;}
+	.middle .ig_aiml {width: 195%;}
+	.end img {width: 195%;}
+	.prj {width: 195%;}
+	.p1 img {width:195%;}
+	.p2 .p_aiml img {width: 195%;}
+	.p2 .p_ar img {width: 195%;}
+	.p2 .p_design img {width: 195%;}
+	}
+
+	@media only screen and (max-width:450px) {
+	#ig {width: 220%;}
+	.middle .ig_aiml {width: 220%;}
+	.end img {width: 220%;}
+	.prj {width: 220%;}
+	.p1 img {width:220%;}
+	.p2 .p_aiml img {width: 220%;}
+	.p2 .p_ar img {width: 220%;}
+	.p2 .p_design img {width: 220%; bottom: 32.5%}
+	}
+
+	@media only screen and (max-width:400px) {
+	#ig {width: 245%;}
+	.middle .ig_aiml {width: 245%;}
+	.end img {width: 245%;}
+	.prj {width: 245%;}
+	.p1 img {width:245%;}
+	.p2 .p_aiml img {width: 245%;}
+	.p2 .p_ar img {width: 245%;}
+	.p2 .p_design img {width: 245%;}
+	}
+
+	@media only screen and (max-width:370px) {
+	#ig {width: 267.5%;}
+	.middle .ig_aiml {width: 267.5%;}
+	.end img {width: 267.5%;}
+	.prj {width: 267.5%;}
+	.p1 img {width:267.5%;}
+	.p2 .p_aiml img {width: 267.5%;}
+	.p2 .p_ar img {width: 267.5%;}
+	.p2 .p_design img {width: 267.5%;}
+	}
+
+	@media only screen and (max-width:325px) {
+	#ig {width: 312.5%;}
+	.middle .ig_aiml {width: 312.5%;}
+	.end img {width: 312.5%;}
+	.prj {width: 312.5%;}
+	.p1 img {width:312.5%;}
+	.p2 .p_aiml img {width: 312.5%;}
+	.p2 .p_ar img {width: 312.5%;}
+	.p2 .p_design img {width: 312.5%;}
+	}	
+
+	@media only screen and (max-height:650px) {
+		.prj {
+			position: relative;
+			bottom: 390% ;}
+	}
+@media only screen and (max-height:650px) {
+		.prj {
+			position: relative;
+			bottom: 390% ;}
+	}
+	@media only screen and (max-height:600px) {
+		.prj {
+			position: relative;
+			bottom: 380% ;}
+	}
+
+	@media only screen and (max-height:550px) {
+		.prj {
+			position: relative;
+			bottom: 370% ;}
+	}
+
+	@media only screen and (max-height:500px) {
+		.prj {
+			position: relative;
+			bottom: 340%;
+	}
+
+	@media only screen and (max-height:450px) {
+			.prj {
+				position: relative;
+				bottom: 320% ;}
+		}
+
+	@media only screen and (max-height:400px) {
+		.prj {
+			position: relative;
+			bottom: 300% ;}
+	}
+
+	@media only screen and (max-height:350px) {
+		.prj {
+			position: relative;
+			bottom: 265% ;}
+	}
+
+	}
