@@ -13,7 +13,7 @@ body{
 
 .about_us {
 	position: relative;
-	display: inline-flex;
+	display: flex;
 }
 
 .about_us #about_us_text h1 {
@@ -29,7 +29,7 @@ body{
 	color: #000000;
 	padding-left: 10%;
 	padding-top: 5%;
-	left: 5.5%;
+	left: 7.5%;
 }
 
 .ul2::after {
@@ -54,13 +54,13 @@ body{
 	letter-spacing: 0.2px;
 	color: #000000;
 	padding-left: 10%;
-	left: 5.5%;
+	left: 7.5%;
 }
 
 .about_us .about_us_img {
 	position: relative;
-	width: 729px;
-	height: 525px;
+	width: 60%;
+	height: 56vh;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	border-radius: 35px;
 	display: flex;
@@ -131,9 +131,9 @@ body{
 .tag_aiml {
 	position: absolute;
 	height: 15%;
-	top: 80.75%;
+	top: 84%;
 	width: 45%;
-	right: 19.5%;
+	right: 19%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
 	text-align: left;
@@ -159,7 +159,7 @@ body{
 .tag_elec {
 	position: absolute;
 	height: 15%;
-	top: 80.75%;
+	top: 84%;
 	left: 5;
 	width: 20%;
 	background: white;
@@ -178,7 +178,7 @@ body{
 .tag_dev {
 	position: absolute;
 	height: 15%;
-	top: 80.75%;
+	top: 84%;
 	width: 20%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
@@ -210,8 +210,8 @@ body{
 	top: 0px;
 	background: #00629B;
 	display: flex;
-	width: fit-content;
-	height: initial;
+	width: 27.5%;
+	height: 56vh;
 }
 
 .project_part_one h1 {
@@ -241,9 +241,9 @@ body{
 .tag_slam {
 	position: absolute;
 	height: 15%;
-	top: 80.75%;
+	top: 84.5%;
 	width: 45%;
-	left: 7%;
+	left: 7.5%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
 	text-align: left;
@@ -264,12 +264,13 @@ body{
 	justify-content: center;
 	align-items: center;
 	margin-top: 1%;
+	margin-bottom: 5%;
 }
 
 .project_part_two .project_tag {
 	position: absolute;
-	height: 15%;
-	bottom: 0;
+	height: 20%;
+	bottom: 1%;
 	width: 20%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
