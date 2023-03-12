@@ -5,16 +5,18 @@ body{
     margin: 0;
  }
 
-.container1 {
+.info {
 	margin-top: 2%;
+	justify-content: center;
+	align-items: center;
 }
 
-.heading {
+.about_us {
 	position: relative;
 	display: inline-flex;
 }
 
-.heading #auinfo h1 {
+.about_us #about_us_text h1 {
 	position: relative;
 	font-family: 'Poppins';
 	font-style: normal;
@@ -40,7 +42,7 @@ body{
 	bottom: -15%;
 }
 
-.heading #auinfo p {
+.about_us #about_us_text p {
 	position: relative;
 	font-family: 'Poppins';
 	font-style: normal;
@@ -55,7 +57,7 @@ body{
 	left: 5.5%;
 }
 
-.heading .auimg {
+.about_us .about_us_img {
 	position: relative;
 	width: 729px;
 	height: 525px;
@@ -67,7 +69,7 @@ body{
 	margin-right: 7.5%;
 }
 
-.square {
+.background_square {
 	position: absolute;
 	max-width: 100%;
 	width: 200px;
@@ -80,25 +82,28 @@ body{
 	
 }
 
-.middle {
+.interest_grp_part_one {
 	position: relative;
-	display: inline-flex;
-	left: 7.5%;
+	display: flex;
 	gap: 1%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
 }
 
-#ig {
+#card {
 	box-sizing: border-box;
 	position: relative;
-	width: 35%;
-	height: 60vh;
 	left: -1px;
 	top: 0px;
 	background: #71C143;
 	display: flex;
+	height: fit-content;
+	width: 27.5%;
+	height: 56vh;
 }
 
-#ig h1 {
+#card h1 {
 	position: relative;
 	top: 1.07%;
 	bottom: 80.47%;
@@ -123,21 +128,12 @@ body{
 	bottom: 55%;
 }
 
-.ig_aiml {
-	position: relative;
-	display: flex;
-}
-
-.ig_aiml img {
-	width: 96.5%;
-}
-
-.tag1 {
+.tag_aiml {
 	position: absolute;
 	height: 15%;
 	top: 80.75%;
 	width: 45%;
-	right: 55%;
+	right: 19.5%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
 	text-align: left;
@@ -151,104 +147,103 @@ body{
 	color: #000000;
 }
 
-.end {
+.interest_grp_part_two {
 	position: relative;
-	display: inline-flex;
-	margin-top: 1%;
+	display: flex;
 	gap: 1%;
-	left: 7.5%;
+	margin-top: 1%;
+	justify-content: center;
+	align-items: center;
 }
 
-.tag2 {
-	position: relative;
-	height: 15%;
-	bottom: 20%;
-	width: 30%;
-	background: white;
-	border-radius: 0px 20px 0px 0px;
-	text-align: left;
-	padding-top: 20px;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 30px;
-	line-height: 33px;
-	letter-spacing: 0.1px;
-	color: #000000;
-}
-
-.tag3 {
-	position: relative;
-	height: 15%;
-	bottom: 20%;
-	left: 0%;
-	width: 40%;
-	background: white;
-	border-radius: 0px 20px 0px 0px;
-	text-align: left;
-	padding-top: 20px;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 30px;
-	line-height: 33px;
-	letter-spacing: 0.1px;
-	color: #000000;
-}
-
-.p1 {
-	position: relative;
-	display: inline-flex;
-	margin-top: 5%;
-	left: 3.25%;
-}
-
-.prj {
-	box-sizing: border-box;
+.tag_elec {
 	position: absolute;
-	left: 109.25%;
-	width: 49.25%;
-	background: #00629B;
-	height: 87.75%;
+	height: 15%;
+	top: 80.75%;
+	left: 5;
+	width: 20%;
+	background: white;
+	border-radius: 0px 20px 0px 0px;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	color: #000000;
 }
 
-.prj h1 {
+.tag_dev {
+	position: absolute;
+	height: 15%;
+	top: 80.75%;
+	width: 20%;
+	background: white;
+	border-radius: 0px 20px 0px 0px;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	color: #000000;
+}
+
+.project_part_one {
 	position: relative;
-	right: 10%;
-	top: 4.06%;
-	bottom: 80.53%;
+	display: flex;
+	gap: 1%;
+	margin-top: 5%;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.project_part_one #card {
+	box-sizing: border-box;
+	position: relative;
+	left: -1px;
+	top: 0px;
+	background: #00629B;
+	display: flex;
+	width: fit-content;
+	height: initial;
+}
+
+.project_part_one h1 {
+	position: relative;
+	top: 1.07%;
+	bottom: 85.47%;
+	left: 35%;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 60px;
 	line-height: 66px;
-	text-align: right;
 	letter-spacing: 0.2px;
-	color: #FFFFFF;
+	color: #FFFFFF
 }
 
 .ul1::after {
 	content: '';
 	height: 5px;
+	top: 25%;
 	width: 45%;
+	right: inherit;
 	background: white;
 	position: absolute;
-	right: 2%;
-	bottom: -30%;
 }
 
-.prjimg img {
-	position: relative;
-	display: flex;
-	left: 7.5%;
-}
-
-.tag4 {
-	position: relative;
+.tag_slam {
+	position: absolute;
 	height: 15%;
-	bottom: 20%;
-	left: 7.5%;
-	width: 40%;
+	top: 80.75%;
+	width: 45%;
+	left: 7%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
 	text-align: left;
@@ -262,19 +257,20 @@ body{
 	color: #000000;
 }
 
-.p2 {
+.project_part_two {
 	position: relative;
-	display: inline-flex;
-	gap: 1.5%;
-	margin-top: -2.5%;
-	left: 7.5%;
+	display: flex;
+	gap: 1%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1%;
 }
 
-.p2 .tag {
-	position: relative;
+.project_part_two .project_tag {
+	position: absolute;
 	height: 15%;
-	bottom: 19%;
-	width: 60%;
+	bottom: 0;
+	width: 20%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
 	text-align: left;
@@ -292,437 +288,3 @@ body{
 	padding-top:2%;
 	color: rgba(85, 84, 85, 1);
 	;
-}
-@media only screen and (max-width:1200px) {
-	body{
-		margin: 0;
-		width: 100%;
-	 }
-	
-	.container1 {
-		margin-top: 2%;
-		width: 100%;
-	}
-	
-	.heading {
-		position: relative;
-		display: inline-grid;
-		width: 100%;
-	}
-	
-	
-	.heading #auinfo h1 {
-		position: relative;
-		display: inline-grid;
-	}
-	
-	.ul2::after {
-		content: '';
-		height: 5px;
-		width: 5%;
-		background: #000000;
-		position: absolute;
-		left: 39.5%;
-		bottom: -15%;
-	}
-	
-	.heading #auinfo p {
-		position: relative;
-		font-family: 'Poppins';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 30px;
-		display: flex;
-		align-items: center;
-		letter-spacing: 0.2px;
-		color: #000000;
-		padding-left: 10%;		
-		padding-right: 10%;
-		top: 10%;
-		float: left;
-	}
-	
-	.heading .auimg {
-		position: relative;
-		display: inline-grid;
-		left: 25%;
-		top: 10%;
-	}
-	
-	.heading .auimg img {
-		height: 55vh;
-	}
-	
-	.middle {
-		position: relative;
-		display: inline-grid;
-		width: 118%;
-		left: 4.5%;
-		gap: 2.5%;
-	}
-	
-	#ig {
-		box-sizing: border-box;
-		position: relative;
-		background: #71C143;
-		display: inline-grid;
-		width: 95.5%;
-		height: 100%;
-	}
-	
-	#ig h1 {
-		position: relative;
-		top: 1.07%;
-		bottom: 80.47%;
-		right: 10%;
-	}
-	
-	.ul::after {
-		width: 42.5%;
-		background: white;
-		position: absolute;
-		right: 0.5%;
-		bottom: 55%;
-	}
-	
-	.middle img {
-		position: relative;
-		width: 95.5%;
-		height: 75vh;
-	}
-	
-	.tag1 {
-		position: absolute;
-		height: 15%;
-		top: 80.75%;
-		width: 45%;
-		right: 55%;
-	}
-	
-	.end {
-		position: relative;
-		display: inline-grid;
-		width: 118%;
-		left: 4.5%;
-		margin-top: 1.5%;
-	}
-	
-	.end img {
-		position: relative;
-		width: 95.5%;
-		height: 75vh;
-	}
-
-	.ig_dev img {
-		top: 2.5%;
-	}
-	
-	.ig_elec img {
-		bottom: 6.5%;
-	}
-	
-	.tag2 {
-		position: relative;
-		height: 15%;
-		bottom: 17%;
-		width: 30%;
-	}
-	
-	.tag3 {
-		position: relative;
-		height: 15%;
-		bottom: 26%;
-		left: 0%;
-		width: 40%;
-	}
-	
-	.p1 {
-		position: relative;
-		display: inline-grid;
-		width: 118%;
-		left: 4.5%;
-	}
-	
-	.prj {
-		box-sizing: border-box;
-		position: relative;
-		display: inline-grid;
-		background: #00629B;
-		bottom: 400%;
-		width: 95.5%;
-		height: 100%;
-		right: 0;
-		left: 0.5%;
-	}
-	
-	.prj h1 {
-		position: relative;
-		right: 10%;
-		top: 4.06%;
-		bottom: 80.53%;
-	}
-	
-	.ul1::after {
-		content: '';
-		height: 5px;
-		width: 45%;
-		background: white;
-		position: absolute;
-		right: 2%;
-		bottom: -30%;
-	}
-	
-	.prjimg img {
-		position: relative;
-		display: grid;
-		left: 0.5%;
-		width: 95.5%;
-		top: 22.5%;
-		height: 75vh;
-	}
-	
-	.tag4 {
-		position: relative;
-		height: 15%;
-		top: 4%;
-		left: 0.5%;
-		width: 40%;
-	}
-	
-	.p2 {
-		position: relative;
-		display: inline-grid;
-		width: 118%;
-		left: 4.5%;
-	}
-	
-	.p2 .p_aiml img {
-		position: relative;
-		width: 95.5%;
-		left: 0.5%;
-		height: 75vh;
-		bottom: 5%;
-	}
-	
-	.p2 .p_ar img {
-		position: relative;
-		width: 95.5%;
-		height: 75vh;
-		bottom: 15.5%;
-		left: 0.5%;
-	}
-	
-	.p2 .p_design img {
-		position: relative;
-		width: 95.5%;
-		height: 75vh;
-		bottom: 26%;
-		left: 0.5%;
-	}
-
-	.p_aiml .tag {
-		position: relative;
-		height: 15%;
-		bottom: 24.5%;
-		width: 60%;
-		left: 0.5%;
-	}
-
-	.p_ar .tag {
-		position: relative;
-		height: 15%;
-		bottom: 34.75%;
-		width: 60%;
-		left: 0.5%;
-	}
-
-	.p_design .tag {
-		position: relative;
-		height: 15%;
-		bottom: 45.25%;
-		width: 60%;
-		left: 0.5%;
-	}
-
-	}
-	
-	@media only screen and (max-width:1100px) {
-	#ig {width: 100%;}
-	.middle img {width: 100%;}
-	.end img {width: 100%;}
-	.prj {width: 100%;}
-	.p1 img {width: 100%;}
-	.p2 .p_aiml img {width: 100%;}
-	.p2 .p_ar img {width: 100%;}
-	.p2 .p_design img {width: 100%;}
-	}
-	
-	@media only screen and (max-width:1000px) {
-	#ig {width: 102.5%;}
-	.middle .ig_aiml {width: 102.5%;}
-	.end img {width: 102.5%;}
-	.prj {width: 102.5%;}
-	.p1 img {width: 102.5%;}
-	.p2 .p_aiml img {width: 102.5%;}
-	.p2 .p_ar img {width: 102.5%;}
-	.p2 .p_design img {width: 102.5%;}
-	}
-	
-	@media only screen and (max-width:900px) {
-	#ig {width: 112.5%;}
-	.middle .ig_aiml {width: 112.5%;}
-	.end img {width: 112.5%;}
-	.prj {width: 112.5%;}
-	.p1 img {width: 112.5%;}
-	.p2 .p_aiml img {width: 112.5%;}
-	.p2 .p_ar img {width: 112.5%;}
-	.p2 .p_design img {width: 112.5%;}
-	}
-
-	@media only screen and (max-width:768px) {
-	#ig {width: 125%;}
-	.middle .ig_aiml {width: 125%;}
-	.end img {width: 125%;}
-	.prj {width: 125%;}
-	.p1 img {width: 125%;}
-	.p2 .p_aiml img {width: 125%;}
-	.p2 .p_ar img {width: 125%;}
-	.p2 .p_design img {width: 125%;}
-	}
-
-	@media only screen and (max-width:650px) {
-	#ig {width: 150%;}
-	.middle .ig_aiml {width: 150%;}
-	.end img {width: 150%;}
-	.prj {width: 150%;}
-	.p1 img {width: 150%;}
-	.p2 .p_aiml img {width: 150%;}
-	.p2 .p_ar img {width: 150%;}
-	.p2 .p_design img {width: 150%;}
-	}
-
-	@media only screen and (max-width:600px) {
-	#ig {width: 162.5%;}
-	.middle .ig_aiml {width: 162.5%;}
-	.end img {width: 162.5%;}
-	.prj {width: 162.5%;}
-	.p1 img {width:162.5%;}
-	.p2 .p_aiml img {width: 162.5%;}
-	.p2 .p_ar img {width: 162.5%;}
-	.p2 .p_design img {width: 162.5%;}
-	}
-
-	@media only screen and (max-width:550px) {
-	#ig {width: 177.5%;}
-	.middle .ig_aiml {width: 177.5%;}
-	.end img {width: 177.5%;}
-	.prj {width: 177.5%;}
-	.p1 img {width:177.5%;}
-	.p2 .p_aiml img {width: 177.5%;}
-	.p2 .p_ar img {width: 177.5%;}
-	.p2 .p_design img {width: 177.5%;}
-	}	
-
-	@media only screen and (max-width:500px) {
-	#ig {width: 195%;}
-	.middle .ig_aiml {width: 195%;}
-	.end img {width: 195%;}
-	.prj {width: 195%;}
-	.p1 img {width:195%;}
-	.p2 .p_aiml img {width: 195%;}
-	.p2 .p_ar img {width: 195%;}
-	.p2 .p_design img {width: 195%;}
-	}
-
-	@media only screen and (max-width:450px) {
-	#ig {width: 220%;}
-	.middle .ig_aiml {width: 220%;}
-	.end img {width: 220%;}
-	.prj {width: 220%;}
-	.p1 img {width:220%;}
-	.p2 .p_aiml img {width: 220%;}
-	.p2 .p_ar img {width: 220%;}
-	.p2 .p_design img {width: 220%; bottom: 32.5%}
-	}
-
-	@media only screen and (max-width:400px) {
-	#ig {width: 245%;}
-	.middle .ig_aiml {width: 245%;}
-	.end img {width: 245%;}
-	.prj {width: 245%;}
-	.p1 img {width:245%;}
-	.p2 .p_aiml img {width: 245%;}
-	.p2 .p_ar img {width: 245%;}
-	.p2 .p_design img {width: 245%;}
-	}
-
-	@media only screen and (max-width:370px) {
-	#ig {width: 267.5%;}
-	.middle .ig_aiml {width: 267.5%;}
-	.end img {width: 267.5%;}
-	.prj {width: 267.5%;}
-	.p1 img {width:267.5%;}
-	.p2 .p_aiml img {width: 267.5%;}
-	.p2 .p_ar img {width: 267.5%;}
-	.p2 .p_design img {width: 267.5%;}
-	}
-
-	@media only screen and (max-width:325px) {
-	#ig {width: 312.5%;}
-	.middle .ig_aiml {width: 312.5%;}
-	.end img {width: 312.5%;}
-	.prj {width: 312.5%;}
-	.p1 img {width:312.5%;}
-	.p2 .p_aiml img {width: 312.5%;}
-	.p2 .p_ar img {width: 312.5%;}
-	.p2 .p_design img {width: 312.5%;}
-	}	
-
-	@media only screen and (max-height:650px) {
-		.prj {
-			position: relative;
-			bottom: 390% ;}
-	}
-@media only screen and (max-height:650px) {
-		.prj {
-			position: relative;
-			bottom: 390% ;}
-	}
-	@media only screen and (max-height:600px) {
-		.prj {
-			position: relative;
-			bottom: 380% ;}
-	}
-
-	@media only screen and (max-height:550px) {
-		.prj {
-			position: relative;
-			bottom: 370% ;}
-	}
-
-	@media only screen and (max-height:500px) {
-		.prj {
-			position: relative;
-			bottom: 340%;
-	}
-
-	@media only screen and (max-height:450px) {
-			.prj {
-				position: relative;
-				bottom: 320% ;}
-		}
-
-	@media only screen and (max-height:400px) {
-		.prj {
-			position: relative;
-			bottom: 300% ;}
-	}
-
-	@media only screen and (max-height:350px) {
-		.prj {
-			position: relative;
-			bottom: 265% ;}
-	}
-
-	}
