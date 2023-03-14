@@ -121,11 +121,7 @@
 .image{
     display: none;
 }
-@media only screen and (max-width:1100px) {
-    .line{
-        margin-left: 9%;
-    }
-    }        
+       
 @media only screen and (max-width:1100px) {
     .line{
         margin-left: 2%;

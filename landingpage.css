@@ -214,7 +214,7 @@ body {
     }
     
 }
-@media (max-width:650px) {
+@media (max-width:400px) {
     .text-1{
         font-size: 45%;
     }
