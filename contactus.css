@@ -120,46 +120,25 @@
     display: none;
 }
 @media only screen and (max-width:1200px) {
-    .container2{
-        width: 120%;
-    }
-    .Contact-container{
-        
-        width: 120%;}
+    
     }        
 @media only screen and (max-width:1100px) {
-    .container2{
-        width: 130%;
-    }
-    .Contact-container{            
-            width: 130%;}
+    
 }
 @media only screen and (max-width:962px) {
-    .container2{
-        width: 140%;
-    }
-    .Contact-container{            
-            width: 140%;}
+   
      
            
             
 }
 @media only screen and (max-width:900px) {
-    .container2{
-        width: 142%;
-    }
-    .Contact-container{            
-            width: 142%;}
+    
      
            
             
 }
 @media only screen and (max-width:870px) {
-    .container2{
-        width: 148%;
-    }
-    .Contact-container{            
-            width: 148%;}
+    
      
            
             

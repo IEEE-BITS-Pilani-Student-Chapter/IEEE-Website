@@ -288,4 +288,14 @@ body{
 ::placeholder { 
 	padding-top:2%;
 	color: rgba(85, 84, 85, 1);
-	;
+	}
+.interest_grp_elec{
+	width: 70%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+.interest_grp_dev{
+	width: 40%;
+	overflow: hidden;
+}

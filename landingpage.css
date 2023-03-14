@@ -48,6 +48,12 @@ body {
     align-items: center;
     height: 1.6rem;
 }
+.top-2-center{
+    display: flex;
+    justify-content: flex-end;
+    height: 4.6rem;
+    align-items: center;
+}
 .top-3{
     width: 200%;
 }
@@ -57,13 +63,16 @@ body {
     color: black;
     font-weight: 600;
     line-height: 27px;
-    margin: 0 30.92px ;
+    margin-right: 30.92px ;
     text-decoration: none;
+    
    
 }
 .logo-1{
     width: 138px;
     height: 45px;
+    
+    
 
 }
 .textbox{
@@ -91,9 +100,9 @@ body {
     width: auto;
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: cover; 
+    background-size: cover;
     
-    background-image: linear-gradient(180deg, rgba(0, 98, 155, 0.366) -1.11%, rgba(0, 98, 155, 0.6) 98.89%),url("images/clockTower.png") ;
+    background-image: linear-gradient(180deg, rgba(0, 98, 155, 0.366) -1.11%, rgba(0, 98, 155, 0.6) 98.89%),url("Clocktower.png");
     
 }
 .top-blue{
@@ -125,14 +134,94 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 450px;
-    left: 85px;
+    margin-top: 332px;
+    margin-left: 6%;
 }
 .icon{
     margin: 0 13.1px;
 }
 .text-2{
     margin-top: -2rem;
-    font-size: 55px;
+    font-size: 45px;
 }
+@media (max-width:900px) {
+    .text-1{
+        font-size: 80%;
+    }
+    .text-2{
+        font-size: 45px;
+    }
+    .textbox{
+        margin-left: 5%;
+    }
+    .icons{
+        margin-top: 290px;
+        margin-left: 5%;
+    }
+
+}
+@media (max-width:800px) {
+    .top-1{
+        display: none;
+    }
+    .top-2-center{
+        display: none;
+    }
+    .top-3{
+        justify-content: center;
+    }
+    .textbox{
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .text-1{
+        font-size: 80%;
+        justify-content: center;
+    }
+    .text-2{
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+    }
+    .textbox{
+        margin-left: 5%;
+    }
+    .top-3{
+        height: 28rem;
+    }
+
+}
+@media (max-width:650px) {
+    .text-1{
+        font-size: 60%;
+    }
+    .icons{
+        margin-top: 250px;
+    }
+
+}
+@media (max-width:500px) {
+    .text-1{
+        font-size: 50%;
+    }
+    .text-2{
+        font-size: 35px;
+    }
+    .icon-img{
+        height: 30px;
+        width: 30px;
+    }
+    
+}
+@media (max-width:650px) {
+    .text-1{
+        font-size: 45%;
+    }
+    .icons{
+        margin-top: 230px;
+    }
+}
+
+
 
