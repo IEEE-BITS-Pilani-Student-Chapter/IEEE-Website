@@ -1,15 +1,16 @@
 .carousel-container{
     
-    margin-left: 7.5%;
+    
     display: flex;
-    margin-bottom:30px ;
+    justify-content: center;
+    margin-bottom:30px;
+    margin-top: 30px;
     
     
 
 }
 #gallery-container{
-    width: 420px;
-    height: 420px;
+    width: 400px;
     background: #D3C200;
     font-family: 'poppins';
     font-weight: 500;
@@ -53,9 +54,10 @@
 }
 .carousel{
     position: relative;
-    height: 420px;
+    height: 10%;
     overflow: hidden;
     width: 860px;
+    
 
 }
 .slider{
@@ -111,4 +113,9 @@
 }
 .controls ul li.selected{
     background-color: black;
+}
+@media (max-width:1285px){
+.carousel-container{
+    
+}
 }
