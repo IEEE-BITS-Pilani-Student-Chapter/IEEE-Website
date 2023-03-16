@@ -112,10 +112,104 @@
     cursor: pointer;
 }
 .controls ul li.selected{
-    background-color: black;
+    background-color: #D3C200;
 }
 @media (max-width:1285px){
-.carousel-container{
-    
+.carousel-img{
+    width: 700px;
+}
+.carousel{
+    width: 700px;
+}
+#gallery-container{
+    width: 300px;
 }
 }
+@media (max-width:1015px){
+    .carousel-img{
+        width: 600px;
+    }
+    .carousel{
+        width: 600px;
+    }
+    #gallery-container{
+        width: 300px;
+    }
+    }
+@media (max-width:915px){
+    .carousel-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-img{
+        width: 800px;
+    }
+    .carousel{
+        width: 800px;
+    }
+    #gallery-container{
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    .line-gallery{
+        margin-bottom: 20px;
+    }
+    }    
+@media (max-width:845px){
+    .carousel-img{
+        width: 600px;
+    }
+    .carousel{
+        width: 600px;
+    }
+    #gallery-container{
+        width: 600px;
+    }
+    }
+@media (max-width:600px){
+    .carousel-img{
+        width: 500px;
+    }
+    .carousel{
+        width: 500px;
+    }
+    #gallery-container{
+        width: 500px;
+    }
+    .gallery{
+        font-size: 45px;
+    }
+    }    
+@media (max-width:500px){
+    .carousel-img{
+        width: 400px;
+    }
+    .carousel{
+        width: 400px;
+    }
+    #gallery-container{
+        width: 400px;
+    }
+    .gallery{
+        font-size: 45px;
+    }
+    }     
+@media (max-width:400px){
+    .carousel-img{
+        width: 300px;
+    }
+    .carousel{
+        width: 300px;
+    }
+    #gallery-container{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .gallery{
+        font-size: 35px;
+    }
+    .line-gallery{
+        width: 110px;
+    }
+    }     
