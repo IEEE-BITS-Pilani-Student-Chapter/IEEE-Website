@@ -341,6 +341,15 @@ body{
 		justify-self: center;
 	}
 
+	.about_us_img {
+		width: 100%;
+		left: 15%;
+	}
+
+	.about_us_img img {
+		width: 100%;
+		height: 70%;
+	}
 
 	.interest_grp_part_one {
 		position: relative;
@@ -444,5 +453,74 @@ body{
 		width: 45%;
 		left: 2%;
 		bottom: 0.15%;
+	}
+}
+
+@media only screen and (max-width:500px) {
+
+	.about_us_img {
+		height: 45vh;
+		object-fit: cover;
+		left: 20%;
+	}
+
+	.card_img {
+		height: 35vh;
+		width: 94%;
+	}
+
+	#card h1 {
+		font-size: 30px;
+	}
+
+	.project_part_one #card h1 {
+		left: 30%;
+	}
+
+	.ul::after {
+		top: 90%;
+		width: 10%;
+	}
+
+	.ul1::after {
+		top: 130%;
+		width: 30%;
+	}
+
+	.tag_aiml {
+		font-size: 18px;
+	}
+
+	.interest_grp_part_two {
+		margin-top: 2.5%;
+	}
+
+	.interest_grp_elec{
+		height: 35vh;
+	}
+
+	.interest_grp_dev {
+		height: 35vh;
+		object-fit: cover;
+	}
+
+	.tag_interest_grp_part_two {
+		font-size: 18px;
+	}
+
+	.project_part_two .project_tag_aiml {
+		font-size: 18px;
+	}
+
+	.project_part_two .project_tag_design {
+		font-size: 18px;
+	}
+
+	.project_part_two .project_tag_ar {
+		font-size: 18px;
+	}
+
+	.project_part_two img {
+		height: 35vh;
 	}
 }
