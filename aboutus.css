@@ -194,7 +194,7 @@ body{
 	position: absolute;
 	height: 20%;
 	top: 79%;
-	width: 20%;
+	width: 45%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
 	text-align: left;
@@ -324,9 +324,125 @@ body{
 	color: #000000;
 }
 
+@media only screen and (max-width:900px) {
+	
+	.project_part_one h1 {
+		font-size: 50px;
+		left: 12.5%;
+	}	
+}
+
+@media only screen and (max-width:800px) {
+	
+	.about_us {
+		position: relative;
+		display: grid;
+		align-self: center;
+		justify-self: center;
+	}
 
 
-::placeholder { 
-	padding-top:2%;
-	color: rgba(85, 84, 85, 1);
+	.interest_grp_part_one {
+		position: relative;
+		display: grid;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#card {
+		position: relative;
+		display: grid;
+		align-self: center;
+		justify-self: center;
+		height: 75%;
+		width: 96%;
+	}
+
+	#card h1 {
+		top: -10%;
+		right: 2.5%;
+	}
+
+	.card_img {
+		position: relative;
+		display: grid;
+		width: 96%;
+		justify-self: center;
+		align-self: center;
+	}
+
+	.interest_grp_part_two {
+		position: relative;
+		display: grid;
+		justify-items: center;
+		align-items: center;
+	}
+
+	.interest_grp_elec {
+		width: 98%;
+	}
+
+	.interest_grp_dev {
+		width: 98%;
+	}
+
+	.project_part_one {
+		position: relative;
+		display: grid;
+		align-self: center;
+		justify-self: center;
+	}
+
+	.project_part_one #card {
+		height: 75%;
+		width: 96%;
+		justify-content: inherit;
+	}
+
+	.ul::after {
+		top: 100%;
+		width: 10%;
+	}
+
+	.ul1::after {
+		top: 210%;
+		width: 30%;
+	}
+
+	.project_part_two {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		gap: 100%;
+	}
+
+	.project_part_two img {
+		position: relative;
+		width: 96%;
+		margin-top: 1%;
+	}
+
+	.project_part_two .project_tag_aiml {
+		height: 7.5%;
+		width: 45%;
+		left: 2%;
+		top: 25.85% ;
+	}
+
+	.project_part_two .project_tag_ar {
+		height: 7.5%;
+		width: 45%;
+		left: 2%;
+		top: 59.2%;
+	}
+
+	.project_part_two .project_tag_design {
+		height: 7.5%;
+		width: 45%;
+		left: 2%;
+		bottom: 0.15%;
+	}
 }
