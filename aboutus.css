@@ -137,7 +137,7 @@ body{
 	background: white;
 	position: absolute;
 	right: 0.5%;
-	bottom: 55%;
+	bottom: 35%;
 }
 
 .tag_aiml {
@@ -193,7 +193,7 @@ body{
 .tag_interest_grp_part_two {
 	position: absolute;
 	height: 20%;
-	top: 79%;
+	top: 80%;
 	width: 45%;
 	background: white;
 	border-radius: 0px 20px 0px 0px;
@@ -245,7 +245,7 @@ body{
 .ul1::after {
 	content: '';
 	height: 5px;
-	top: 25%;
+	top: 35%;
 	width: 45%;
 	right: inherit;
 	background: white;
@@ -341,9 +341,29 @@ body{
 		justify-self: center;
 	}
 
-	.about_us_img {
-		width: 100%;
-		left: 15%;
+	.about_us .about_us_img {
+		width: 70%;
+		left: -10%;
+		height: 30vh;
+		justify-self: center;
+		align-self: center;
+	}
+
+
+	.about_us #about_us_text h1 {
+		font-size: 36px;
+		left: 0;
+		padding-left: 17.5%;
+	}
+
+	.about_us #about_us_text p {
+		font-size: 12px;
+		left: 0;
+		padding-left: 17.5%;
+	}
+
+	.ul2::after {
+		left: 17.5%;
 	}
 
 	.about_us_img img {
@@ -383,16 +403,20 @@ body{
 	.interest_grp_part_two {
 		position: relative;
 		display: grid;
+		flex-direction: column;
 		justify-items: center;
 		align-items: center;
+		column-gap: var();
 	}
 
 	.interest_grp_elec {
-		width: 98%;
+		position: relative;
+		display: grid;
+		width: 96%;
 	}
 
 	.interest_grp_dev {
-		width: 98%;
+		width: 96%;
 	}
 
 	.project_part_one {
@@ -406,6 +430,11 @@ body{
 		height: 75%;
 		width: 96%;
 		justify-content: inherit;
+	}
+
+	.project_part_one #card h1 {
+		top: -10%;
+		left: 27.5%;
 	}
 
 	.ul::after {
@@ -425,7 +454,7 @@ body{
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		gap: 100%;
+		margin-top: 1.5%;
 	}
 
 	.project_part_two img {
@@ -456,6 +485,7 @@ body{
 	}
 }
 
+
 @media only screen and (max-width:500px) {
 
 	.about_us_img {
@@ -470,10 +500,12 @@ body{
 	}
 
 	#card h1 {
+		position: relative;
 		font-size: 30px;
 	}
 
 	.project_part_one #card h1 {
+		position: relative;
 		left: 30%;
 	}
 
@@ -489,6 +521,12 @@ body{
 
 	.tag_aiml {
 		font-size: 18px;
+		padding-top: 6px;
+	}
+
+	.background_square {
+		height: 100px;
+		width: 100px;
 	}
 
 	.interest_grp_part_two {
@@ -505,18 +543,22 @@ body{
 	}
 
 	.tag_interest_grp_part_two {
+		padding-top: 10px;
 		font-size: 18px;
 	}
 
 	.project_part_two .project_tag_aiml {
+		padding-top: 10px;
 		font-size: 18px;
 	}
 
 	.project_part_two .project_tag_design {
+		padding-top: 10px;
 		font-size: 18px;
 	}
 
 	.project_part_two .project_tag_ar {
+		padding-top: 10px;
 		font-size: 18px;
 	}
 
