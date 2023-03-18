@@ -110,6 +110,7 @@
     line-height: 124.02%;
     margin-top: 20px;
     
+    
 
 }
 #button{
@@ -117,10 +118,19 @@
     align-items: flex-end;
     justify-content: flex-end;
     width: 86%;
+    
 }
-.image{
+.send-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.email-logo{
     display: none;
 }
+.location{
+    display: none;
+}
+
        
 @media only screen and (max-width:1100px) {
     .line{
@@ -157,7 +167,12 @@
         flex-direction: row;
         justify-content: center;
     }
-    .image{
+    .location{
+        display: inline-block;
+        margin-top: 25px;
+        margin-right: 12px;
+    }
+    .email-logo{
         display: inline-block;
         margin-top: 25px;
         margin-right: 12px;
@@ -177,6 +192,9 @@
     #button{
         justify-content: center;
         margin-top: -3%;
+    }
+    .address-innertext{
+        margin-left: 13%;
     }
     
 
@@ -204,6 +222,22 @@
     .slogan{
         font-size: 140%;
     }
+    .EmailAddress{
+        width: 214px;
+        font-size: 1rem;
+    }
+    #Name{
+        font-size: 1.2rem;
+        height: 39px;
+    }
+    #email{
+        font-size: 1.2rem;
+        height: 39px;
+    }
+    #comments{
+        font-size: 1.2rem;
+        height: 115px;
+    }
     } 
 @media only screen and (max-width:400px) {
     .contact{
@@ -215,4 +249,35 @@
     .slogan{
         font-size: 120%;
     }
+    .EmailAddress{
+        width: 186px;
+        font-size: 0.85rem;
+    }
+    .email-logo{
+        height: 20px;
+        width: 31px;
+    }
+    .location{
+        height: 30px;
+        width: 23px;
+    }
+    #Name{
+        font-size: 1.1rem;
+        height: 36px;
+    }
+    #email{
+        font-size: 1.1rem;
+        height: 36px;
+    }
+    #comments{
+        font-size: 1.1rem;
+        height: 110px;
+    }
+    #send{
+        height: 40px;
+        width: 150px;
+    }
+    
+    
+
     }     
