@@ -336,15 +336,17 @@ body{
 	
 	.about_us {
 		position: relative;
-		display: grid;
-		align-self: center;
-		justify-self: center;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 10%;
 	}
 
 	.about_us .about_us_img {
-		width: 70%;
+		width: 80%;
 		left: -10%;
-		height: 30vh;
+		height: 50vh;
 		justify-self: center;
 		align-self: center;
 	}
@@ -495,10 +497,11 @@ body{
 
 @media only screen and (max-width:500px) {
 
-	.about_us_img {
-		height: 45vh;
-		object-fit: cover;
-		left: 20%;
+    .about_us .about_us_img {
+		height: 50vh;
+		width: 60vh;
+		
+		
 	}
 
 	.card_img {
@@ -571,5 +574,11 @@ body{
 
 	.project_part_two img {
 		height: 35vh;
+	}
+}
+@media only screen and (max-width:500px){
+	.about_us .about_us_img{
+		width: 90vw;
+		height: 40vh;
 	}
 }
