@@ -214,12 +214,23 @@ body {
     }
     
 }
-@media (max-width:400px) {
+@media (max-width:415px) {
     .text-1{
         font-size: 45%;
     }
     .icons{
         margin-top: 230px;
+    }
+}
+@media (max-width:380px) {
+    .text-1{
+        font-size: 35%;
+    }
+    .icons{
+        margin-top: 200px;
+    }
+    .text-2{
+        font-size: 25px;
     }
 }
 
