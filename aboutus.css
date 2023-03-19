@@ -1,0 +1,575 @@
+html {
+	scroll-behavior: smooth;
+   }
+body{
+    margin: 0;
+ }
+
+.info {
+	margin-top: 2%;
+	justify-content: center;
+	align-items: center;
+}
+
+.about_us {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.about_us #about_us_text h1 {
+	position: relative;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 66px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.2px;
+	color: #000000;
+	padding-left: 10%;
+	padding-top: 5%;
+	left: 8%;
+}
+
+.ul2::after {
+	content: '';
+	height: 5px;
+	width: 5%;
+	background: #000000;
+	position: absolute;
+	left: 10%;
+	bottom: -15%;
+}
+
+.about_us #about_us_text p {
+	position: relative;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.2px;
+	color: #000000;
+	padding-left: 10%;
+	left: 8%;
+	width: 75%;
+}
+
+.about_us .about_us_img {
+	position: relative;
+	width: 60%;
+	height: 56vh;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 35px;
+	display: flex;
+	padding-left: 10%;
+	margin-top: 5%;
+	right: 9%;
+}
+
+.background_square {
+	position: absolute;
+	max-width: 100%;
+	width: 200px;
+	height: 300px;
+	margin-left: 45%;
+	border: 21px solid #00629B;
+	filter: blur(50px);
+	transform: rotate(+31.35deg);
+	z-index: -1;
+	
+}
+
+.interest_grp_part_one {
+	position: relative;
+	display: flex;
+	gap: 1%;
+	margin-top: 5%;
+	justify-content: center;
+	align-items: center;
+}
+
+#card {
+	box-sizing: border-box;
+	position: relative;
+	left: -1px;
+	top: 0px;
+	background: #71C143;
+	display: flex;		
+	height: 55vh;
+	width: 32%;
+}
+
+#card h1 {
+	position: relative;
+	top: 1.07%;
+	bottom: 80.47%;
+	right: 10%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	text-align: right;
+	font-size: 60px;
+	line-height: 66px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF
+}
+
+.card_img {
+	position: relative;
+	width: 50%;
+	height: 55vh;
+}
+
+.card_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.ul::after {
+	content: '';
+	height: 5px;
+	width: 42.5%;
+	background: white;
+	position: absolute;
+	right: 0.5%;
+	bottom: 35%;
+}
+
+.tag_aiml {
+	position: absolute;
+	height: 20%;
+	bottom: -2.4%;
+	width: 45%;
+	left: 0;
+	background: white;
+	border-radius: 0px 20px 0px 0px;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	color: #000000;
+}
+
+.interest_grp_dev {
+	position: relative;
+	width: 32%;
+	height: 55vh;
+}
+
+.interest_grp_dev img {
+	width: 100%;
+	height: 100%;
+}
+
+.interest_grp_elec {
+	position: relative;
+	width: 50%;
+	height: 55vh;
+}
+
+.interest_grp_elec img {
+	width: 100%;
+	height: 100%;
+}
+
+.interest_grp_part_two {
+	position: relative;
+	display: flex;
+	gap: 1%;
+	margin-top: 1.5%;
+	justify-content: center;
+	align-items: center;
+}
+
+.tag_interest_grp_part_two {
+	position: absolute;
+	height: 20%;
+	top: 80%;
+	width: 45%;
+	background: white;
+	border-radius: 0px 20px 0px 0px;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	color: #000000;
+}
+
+.project_part_one {
+	position: relative;
+	display: flex;
+	gap: 1%;
+	margin-top: 5%;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.project_part_one #card {
+	box-sizing: border-box;
+	position: relative;
+	left: -1px;
+	top: 0px;
+	background: #00629B;
+	display: flex;
+	width: 32%;
+}
+
+.project_part_one h1 {
+	position: relative;
+	top: 1.07%;
+	bottom: 85.47%;
+	left: 25%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 66px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF
+}
+
+.ul1::after {
+	content: '';
+	height: 5px;
+	top: 35%;
+	width: 45%;
+	right: inherit;
+	background: white;
+	position: absolute;
+}
+
+.project_part_two {
+	position: relative;
+	display: flex;
+	gap: 1%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5%;
+	margin-bottom: 5%;
+}
+
+.project_part_two img {
+	width: 26.5%;
+	height: 55vh;
+}
+
+.project_part_two .project_tag_aiml {
+	position: absolute;
+	height: 20%;
+	bottom: 0;
+	right: 70.75%;
+	width: 20%;
+	background: white;
+	border-radius: 0px 20px 0px 0px;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	color: #000000;
+}
+
+.project_part_two .project_tag_ar {
+	position: absolute;
+	height: 20%;
+	bottom: 0;
+	right: 43.25%;
+	width: 20%;
+	background: white;
+	border-radius: 0px 20px 0px 0px;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	color: #000000;
+}
+
+.project_part_two .project_tag_design {
+	position: absolute;
+	height: 20%;
+	bottom: 0;
+	right: 15.75%;
+	width: 20%;
+	background: white;
+	border-radius: 0px 20px 0px 0px;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	color: #000000;
+}
+
+@media only screen and (max-width:900px) {
+	
+	.project_part_one h1 {
+		font-size: 50px;
+		left: 12.5%;
+	}	
+}
+
+@media only screen and (max-width:800px) {
+	
+	.about_us {
+		position: relative;
+		display: grid;
+		align-self: center;
+		justify-self: center;
+	}
+
+	.about_us .about_us_img {
+		width: 70%;
+		left: -10%;
+		height: 30vh;
+		justify-self: center;
+		align-self: center;
+	}
+
+	.background_square {
+		height: 175px;
+		width: 200px;
+	}
+
+	.about_us #about_us_text h1 {
+		font-size: 36px;
+		left: 0;
+		padding-left: 17.5%;
+	}
+
+	.about_us #about_us_text p {
+		font-size: 12px;
+		left: 0;
+		padding-left: 17.5%;
+	}
+
+	.ul2::after {
+		left: 17.5%;
+	}
+
+	.about_us_img img {
+		width: 100%;
+		height: 90%;
+	}
+
+	.interest_grp_part_one {
+		position: relative;
+		display: grid;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#card {
+		position: relative;
+		display: grid;
+		align-self: center;
+		justify-self: center;
+		height: 75%;
+		width: 85%;
+	}
+
+	#card h1 {
+		top: -10%;
+		right: 2.5%;
+		font-size: 40px;
+	}
+
+	.card_img {
+		position: relative;
+		display: grid;
+		width: 85%;
+		justify-self: center;
+		align-self: center;
+	}
+
+	.interest_grp_part_two {
+		position: relative;
+		display: grid;
+		flex-direction: column;
+		justify-items: center;
+		align-items: center;
+	}
+
+	.interest_grp_elec {
+		position: relative;
+		display: grid;
+		width: 85%;
+		font-size: 40px;
+	}
+
+	.interest_grp_dev {
+		width: 85%;
+		font-size: 40px;
+	}
+
+	.project_part_one {
+		position: relative;
+		display: grid;
+		align-self: center;
+		justify-self: center;
+	}
+
+	.project_part_one #card {
+		height: 75%;
+		width: 85%;
+		justify-content: inherit;
+	}
+
+	.project_part_one #card h1 {
+		top: -10%;
+		left: 27.5%;
+	}
+
+	.ul::after {
+		top: 100%;
+		width: 10%;
+	}
+
+	.ul1::after {
+		top: 175%;
+		width: 30%;
+	}
+
+	.project_part_two {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin-top: 1.5%;
+	}
+
+	.project_part_two img {
+		position: relative;
+		width: 85%;
+		margin-top: 1%;
+	}
+
+	.project_part_two .project_tag_aiml {
+		height: 7.5%;
+		width: 45%;
+		left: 7.5%;
+		top: 25.85% ;
+	}
+
+	.project_part_two .project_tag_ar {
+		height: 7.5%;
+		width: 45%;
+		left: 7.5%;
+		top: 59.2%;
+		padding-top: 10px;
+	}
+
+	.project_part_two .project_tag_design {
+		height: 7.5%;
+		width: 45%;
+		left: 7.5%;
+		bottom: 0;
+	}
+}
+
+
+@media only screen and (max-width:500px) {
+
+	.about_us_img {
+		height: 45vh;
+		object-fit: cover;
+		left: 20%;
+	}
+
+	.card_img {
+		height: 35vh;
+		width: 85%;
+	}
+
+	#card h1 {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.project_part_one #card h1 {
+		position: relative;
+		left: 30%;
+	}
+
+	.ul::after {
+		top: 90%;
+		width: 10%;
+	}
+
+	.ul1::after {
+		top: 130%;
+		width: 30%;
+	}
+
+	.tag_aiml {
+		font-size: 18px;
+		padding-top: 6px;
+	}
+
+	.background_square {
+		height: 100px;
+		width: 100px;
+	}
+
+	.interest_grp_part_two {
+		margin-top: 2.5%;
+	}
+
+	.interest_grp_elec{
+		height: 35vh;
+	}
+
+	.interest_grp_dev {
+		height: 35vh;
+		object-fit: cover;
+	}
+
+	.tag_interest_grp_part_two {
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+	.project_part_two .project_tag_aiml {
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+	.project_part_two .project_tag_design {
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+	.project_part_two .project_tag_ar {
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+	.project_part_two img {
+		height: 35vh;
+	}
+}
