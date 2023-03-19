@@ -220,7 +220,7 @@
         font-size: 280%;
     }
     .slogan{
-        font-size: 140%;
+        font-size: 120%;
     }
     .EmailAddress{
         width: 214px;
@@ -264,11 +264,19 @@
     .location{
         margin-left: 11%;
     }
+    .email-logo{
+        height: 20px;
+        width: 30px;
+    }
+    .location{
+        height: 27px;
+        width: 23px;
+    }
 
     } 
 @media only screen and (max-width:400px) {
     .contact{
-        font-size: 90%;
+        font-size: 35px;
     }
     #contactus{
         font-size: 250%;
@@ -310,13 +318,26 @@
         justify-content: center;
        
     }
+    .email-logo{
+        height: 15px;
+        width: 25px;
+    }
+    .location{
+        height: 23px;
+        width: 18px;
+    }
+    .Address{
+        font-size: 15px;
+        margin-left: 8%;
+    }
+
     
     
 
     }     
 @media only screen and (max-width:350px) {
     .contact{
-        font-size: 80%;
+        font-size: 35px;
     }
     #contactus{
         font-size: 230%;
@@ -329,12 +350,12 @@
         font-size: 0.85rem;
     }
     .email-logo{
-        height: 20px;
-        width: 31px;
+        height: 15px;
+        width: 25px;
     }
     .location{
-        height: 30px;
-        width: 23px;
+        height: 23px;
+        width: 18px;
     }
     #Name{
         font-size: 1.1rem;

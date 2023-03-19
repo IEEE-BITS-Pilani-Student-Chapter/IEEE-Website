@@ -22,6 +22,7 @@
 .gallery{
     margin-right: 35px;
     color: aliceblue;
+    font-weight: 500;
 }
 .line-gallery-container{
     display: flex;
@@ -181,22 +182,47 @@
     .gallery{
         font-size: 45px;
     }
+    .line-gallery{
+        width: 100px;
+    }
     }    
 @media (max-width:500px){
     .carousel-img{
-        width: 400px;
+        width: 420px;
     }
     .carousel{
-        width: 400px;
+        width: 420px;
     }
     #gallery-container{
-        width: 400px;
+        width: 420px;
     }
     .gallery{
-        font-size: 45px;
+        font-size: 35px;
+    }
+    .line-gallery{
+        width: 90px;
     }
     }     
-@media (max-width:400px){
+    @media (max-width:430px){
+        .carousel-img{
+            width: 345px;
+        }
+        .carousel{
+            width: 345px;
+        }
+        #gallery-container{
+            width: 345px;
+            margin-bottom: 5px;
+            margin-left: 11px;
+        }
+        .gallery{
+            font-size: 35px;
+        }
+        .line-gallery{
+            width: 110px;
+        }
+        }   
+    @media (max-width:400px){
     .carousel-img{
         width: 350px;
     }
