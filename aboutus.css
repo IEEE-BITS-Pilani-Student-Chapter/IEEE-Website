@@ -384,7 +384,7 @@ body{
 		align-self: center;
 		justify-self: center;
 		height: 75%;
-		width: 96%;
+		width: 94%;
 	}
 
 	#card h1 {
@@ -395,7 +395,7 @@ body{
 	.card_img {
 		position: relative;
 		display: grid;
-		width: 96%;
+		width: 94%;
 		justify-self: center;
 		align-self: center;
 	}
@@ -406,17 +406,16 @@ body{
 		flex-direction: column;
 		justify-items: center;
 		align-items: center;
-		column-gap: var();
 	}
 
 	.interest_grp_elec {
 		position: relative;
 		display: grid;
-		width: 96%;
+		width: 94%;
 	}
 
 	.interest_grp_dev {
-		width: 96%;
+		width: 94%;
 	}
 
 	.project_part_one {
@@ -428,7 +427,7 @@ body{
 
 	.project_part_one #card {
 		height: 75%;
-		width: 96%;
+		width: 94%;
 		justify-content: inherit;
 	}
 
@@ -453,13 +452,13 @@ body{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 100%;
+		width: 96%;
 		margin-top: 1.5%;
 	}
 
 	.project_part_two img {
 		position: relative;
-		width: 96%;
+		width: 94%;
 		margin-top: 1%;
 	}
 
