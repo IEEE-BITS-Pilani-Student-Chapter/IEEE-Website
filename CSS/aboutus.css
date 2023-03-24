@@ -108,7 +108,7 @@ body{
 	position: relative;
 	top: 1.07%;
 	bottom: 80.47%;
-	right: 10%;
+	right: 5%;
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 500;
@@ -116,7 +116,8 @@ body{
 	font-size: 60px;
 	line-height: 66px;
 	letter-spacing: 0.2px;
-	color: #FFFFFF
+	color: #FFFFFF;
+	padding-left: 20%;
 }
 
 .card_img {
@@ -133,11 +134,11 @@ body{
 .ul::after {
 	content: '';
 	height: 5px;
-	width: 42.5%;
+	width: 37.5%;
 	background: white;
 	position: absolute;
 	right: 0.5%;
-	bottom: 35%;
+	top: 45%;
 }
 
 .tag_aiml {
@@ -245,9 +246,9 @@ body{
 .ul1::after {
 	content: '';
 	height: 5px;
-	top: 35%;
+	top: 25%;
 	width: 45%;
-	right: inherit;
+	right: 2.5%;
 	background: white;
 	position: absolute;
 }
