@@ -360,7 +360,7 @@ body{
 	.about_us #about_us_text h1 {
 		font-size: 36px;
 		left: 0;
-		padding-left: 17.5%;
+		padding-left: 12.5%;
 	}
 
 	.about_us #about_us_text p {
@@ -371,7 +371,8 @@ body{
 	}
 
 	.ul2::after {
-		left: 17.5%;
+		left: 12.5%;
+		bottom: 0;
 	}
 
 	.about_us_img img {
@@ -415,6 +416,8 @@ body{
 		flex-direction: column;
 		justify-items: center;
 		align-items: center;
+		gap: 2.5%;
+		margin-top: 2.5%;
 	}
 
 	.interest_grp_elec {
@@ -444,7 +447,7 @@ body{
 
 	.project_part_one #card h1 {
 		top: -10%;
-		left: 27.5%;
+		left: 22.5%;
 	}
 
 	.ul::after {
@@ -470,7 +473,7 @@ body{
 	.project_part_two img {
 		position: relative;
 		width: 85%;
-		margin-top: 1%;
+		margin-top: 2.5%;
 	}
 
 	.project_part_two .project_tag_aiml {
@@ -500,8 +503,8 @@ body{
 @media only screen and (max-width:500px) {
 
     .about_us .about_us_img {
-		height: 50vh;
-		width: 60vh;
+		width: 90vw;
+		height: 40vh;
 	}
 
 	.about_us #about_us_text h1 {
@@ -530,7 +533,11 @@ body{
 
 	.project_part_one #card h1 {
 		position: relative;
-		left: 30%;
+		left: 20%;
+	}
+
+	.project_part_two {
+		gap: 5%;
 	}
 
 	.ul::after {
@@ -588,11 +595,5 @@ body{
 
 	.project_part_two img {
 		height: 35vh;
-	}
-}
-@media only screen and (max-width:500px){
-	.about_us .about_us_img{
-		width: 90vw;
-		height: 40vh;
 	}
 }
