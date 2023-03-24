@@ -363,7 +363,8 @@ body{
 	.about_us #about_us_text p {
 		font-size: 12px;
 		left: 0;
-		padding-left: 17.5%;
+		padding-left: 12.5%;
+		width: 80%;
 	}
 
 	.ul2::after {
