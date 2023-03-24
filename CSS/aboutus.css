@@ -359,7 +359,7 @@ body{
 	.about_us #about_us_text h1 {
 		font-size: 36px;
 		left: 0;
-		padding-left: 12.5%;
+		padding-left: 17.5%;
 	}
 
 	.about_us #about_us_text p {
@@ -370,7 +370,7 @@ body{
 	}
 
 	.ul2::after {
-		left: 12.5%;
+		left: 17.5%;
 	}
 
 	.about_us_img img {
@@ -501,9 +501,21 @@ body{
     .about_us .about_us_img {
 		height: 50vh;
 		width: 60vh;
-		
-		
 	}
+
+	.about_us #about_us_text h1 {
+		padding-left: 0;
+	}
+
+	.about_us #about_us_text p {
+		padding-left: 0;
+		width: 97.5%;
+	}
+
+	.ul2::after {
+		bottom: 0;
+		left: 0;
+	} 
 
 	.card_img {
 		height: 35vh;
