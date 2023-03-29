@@ -1,5 +1,6 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
+    overflow-x: hidden;
 }
 
 .display {
@@ -63,5 +64,30 @@ img.vert-move {
 
     100% {
         transform: translateY(0);
+    }
+}
+
+.custom-sig-card:hover .position-absolute {
+    animation: slideup 0.5s ease-in-out forwards;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-101%);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero-img {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ieee-top-links {
+        display: none;
     }
 }
