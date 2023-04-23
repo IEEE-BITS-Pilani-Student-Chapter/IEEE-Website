@@ -68,8 +68,14 @@ img.vert-move {
     }
 }
 
+.custom-sig-card .position-absolute {
+    animation: slidedown 0.2s ease-in-out;
+    transform: translateY(0%);
+}
+
 .custom-sig-card:hover .position-absolute {
-    animation: slideup 0.5s ease-in-out forwards;
+    animation: slideup 0.2s ease-in-out;
+    transform: translateY(-101%);
 }
 
 @keyframes slideup {
@@ -79,6 +85,16 @@ img.vert-move {
 
     100% {
         transform: translateY(-101%);
+    }
+}
+
+@keyframes slidedown {
+    0% {
+        transform: translateY(-101%);
+    }
+
+    100% {
+        transform: translateY(0%);
     }
 }
 
@@ -124,4 +140,37 @@ img.vert-move {
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+.glowing {
+    border-color: aliceblue;
+    border-width: .15rem;
+    filter: drop-shadow(0 0 5px rgb(155, 171, 171)) brightness(1.5);
+}
+
+.cool {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #f2f5cf, #efd9cbd9, #dcfce9, #c6edc6, #efd1ef, #f5c8e3, #dccaef, #f5ded9de, #cce2f0);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: glower 20s linear infinite;
+}
+
+@keyframes glower {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
