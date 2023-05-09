@@ -1,4 +1,4 @@
-particlesJS.load('sigs', 'particlesjs-config.json', function() {
+particlesJS.load('sigs', './assets/js/particlesjs-config.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
