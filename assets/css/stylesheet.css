@@ -183,3 +183,85 @@ img.vert-move {
     font-size: 1.5rem;
     color: #808080;
 }
+#Editions-box{
+    margin-top: 4rem;
+    margin-left: 7rem;
+    margin-right: 3rem;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.911);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+   height: fit-content;
+    width: 200px;
+}
+.items{
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    
+    }
+.items:hover{
+    
+    background-color: #0A70A3;
+    color: white;
+    }
+#pdf-buttons{
+  display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+#pdf-buttons-2{
+    background-color: #0A70A3;
+    text-decoration: none;
+    width: fit-content;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    margin-left: 2%;
+    margin-bottom: 2rem;
+}
+#pdf-buttons-2:hover{
+    background-color: #064b6e;
+    
+    }
+
+@media screen and (max-width: 589px) {
+    #Editions-box{
+        margin-left: 2rem;
+    }
+    
+}
+@media screen and (max-width: 509px) {
+    #Editions-box{
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+    
+}
+@media screen and (max-width: 482px) {
+    #Editions-box{
+        margin-left: 1rem;
+    }
+    .pdf-buttons-2{
+        margin-left: 0%;
+        padding: 0.7rem 0.3rem;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    #Editions-box{
+        margin-left: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .items{
+        padding: 0.7rem 0.7rem;
+        border-radius: 1rem;
+        
+        }
+    
+        .pdf-buttons-2{
+            margin-left: 0%;
+            padding: 0rem 0rem;
+            
+        }
+}
