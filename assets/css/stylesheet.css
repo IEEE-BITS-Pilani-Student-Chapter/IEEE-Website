@@ -248,9 +248,15 @@ img.vert-move {
         display: flex;
         justify-content: center;
         margin-top: 0rem;
+        width: 800px;
     }
     #pdf-buttons-2{
         margin-left: 3%;
+    }
+    #pdf-buttons{
+        display: flex;
+        justify-content: center;
+
     }
     
 }
