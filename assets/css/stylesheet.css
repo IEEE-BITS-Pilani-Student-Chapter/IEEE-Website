@@ -210,7 +210,7 @@ img.vert-move {
   display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
-    margin-left: 2rem;
+    
 }
 #pdf-buttons-2{
     background-color: #0A70A3;
@@ -219,14 +219,26 @@ img.vert-move {
     padding: 1rem 0.5rem;
     border-radius: 0.5rem;
     color: white;
-    margin-left: 2%;
     margin-bottom: 2rem;
+}
+#pdf-buttons-2-2{
+    background-color: #0A70A3;
+    text-decoration: none;
+    width: fit-content;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    margin-left: 1%;
 }
 #pdf-buttons-2:hover{
     background-color: #064b6e;
     
     }
-
+    #pdf-buttons-2-2:hover{
+        background-color: #064b6e;
+        
+        }
 @media screen and (max-width: 589px) {
     #Editions-box{
         margin-left: 2rem;
@@ -250,7 +262,7 @@ img.vert-move {
         margin-top: 0rem;
         width: 800px;
     }
-    #pdf-buttons-2{
+    #pdf-buttons-2-2{
         margin-left: 3%;
     }
     #pdf-buttons{
