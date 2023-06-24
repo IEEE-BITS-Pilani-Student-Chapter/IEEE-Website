@@ -397,7 +397,7 @@
     </div>
     <div style="display: flex; justify-content: center;  ">
         <div id="Editions-box"> 
-            <div class="items"> June 2023</div>
+            <div class="items" onclick="change();"> June 2023</div>
             <div class="items"> July 2023</div>
     </div>
     <div class="row">
@@ -409,9 +409,15 @@
     </div>
 </div>
 <div style="display: flex; justify-content: center; ">   
-<iframe
-	src="/assets/Innovation Insider June.pdf#toolbar=0"
-	width="55%"
+<script>
+    function change(){
+        document.querySelector("iframe").src="/assets/Innovation Insider June.pdf"
+    }
+    
+</script>
+    <iframe
+	src="/assets/Innovation Insider June.pdf"
+	width="90%"
 	height="1000px"
 	style="border:none; display: flex; justify-content: center; align-items: center; "
 ></iframe></div>
